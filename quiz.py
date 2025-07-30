@@ -15,7 +15,7 @@ def main():
         print()
         question_1 = input("Question 1: What is " + names[0] + "'s real name? ")
         print()
-        if question_1 == answers[0].lower():
+        if question_1.lower() == answers[0].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -28,7 +28,7 @@ def main():
         print()
         question_2 = input("Question 2: What is " + names[1] + "'s real name? ")
         print()
-        if question_2 == answers[1].lower():
+        if question_2.lower() == answers[1].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -41,7 +41,7 @@ def main():
         print()
         question_3 = input("Question 3: What is " + names[2] + "'s real name? ")
         print()
-        if question_3 == answers[2].lower():
+        if question_3.lower() == answers[2].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -54,7 +54,7 @@ def main():
         print()
         question_4 = input("Question 4: What is " + names[3] + "'s real name? ")
         print()
-        if question_4 == answers[3].lower():
+        if question_4.lower() == answers[3].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -67,7 +67,7 @@ def main():
         print()
         question_5 = input("Question 5: What is " + names[4] + "'s real name? ")
         print()
-        if question_5 == answers[4].lower():
+        if question_5.lower() == answers[4].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -80,7 +80,7 @@ def main():
         print()
         question_6 = input("Question 6: What is " + names[5] + "'s real name? ")
         print()
-        if question_6 == answers[5].lower():
+        if question_6.lower() == answers[5].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -93,7 +93,7 @@ def main():
         print()
         question_7 = input("Question 7: What is " + names[6] + "'s real name? ")
         print()
-        if question_7 == answers[6].lower():
+        if question_7.lower() == answers[6].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -106,7 +106,7 @@ def main():
         print()
         question_8 = input("Question 8: What is " + names[7] + "'s real name? ")
         print()
-        if question_8 == answers[7].lower():
+        if question_8.lower() == answers[7].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -119,7 +119,7 @@ def main():
         print()
         question_9 = input("Question 9: What is " + names[8] + "'s real name? ")
         print()
-        if question_9 == answers[8].lower():
+        if question_9.lower() == answers[8].lower():
             print('--------')
             print('Correct!')
             print('--------')
@@ -132,7 +132,7 @@ def main():
         print()
         question_10 = input("Question 10: What is " + names[9] + "'s real name? ")
         print()
-        if question_10 == answers[9].lower():
+        if question_10.lower() == answers[9].lower():
             print('--------')
             print('Correct!')
             print('--------')
