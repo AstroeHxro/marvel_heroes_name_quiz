@@ -3,8 +3,8 @@ answers = ['Reed Richards', 'Peter Parker', 'Bruce Banner', 'Steve Rodgers', 'St
 
 
 def main():
-
-    print()
+    score = 0
+    
     user_input = input('Press (s) to start or anything else to quit!: ')
     print('--------------------------------------------------')
 
@@ -19,6 +19,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -31,6 +32,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -43,6 +45,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -55,6 +58,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -67,6 +71,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -79,6 +84,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -91,6 +97,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -103,6 +110,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -115,6 +123,7 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
@@ -127,11 +136,17 @@ def main():
             print('--------')
             print('Correct!')
             print('--------')
+            score += 1
         else:
             print('--------')
             print('Incorrect!')
             print('--------')
-
+            
+        percent = (score / 10) * 100
+        print()
+        print(f'You got {score}/10 questions correct!')
+        print(f"That's a grade of {percent}%!")
+        print()
         
 
     else:
